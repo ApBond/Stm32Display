@@ -1,0 +1,11 @@
+.\objects\main.o: Code\src\main.c
+.\objects\main.o: .\Code\inc\main.h
+.\objects\main.o: .\CMSIS\inc\stm32f10x.h
+.\objects\main.o: .\CMSIS\inc\core_cm3.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: .\CMSIS\inc\system_stm32f10x.h
+.\objects\main.o: .\lib\inc\delay.h
+.\objects\main.o: .\lib\inc\ssd1306.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\main.o: .\lib\inc\rcc.h
+.\objects\main.o: C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h

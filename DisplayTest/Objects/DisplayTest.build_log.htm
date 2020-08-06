@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.30.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Alexandr Bondarchuk, 123qwe, LIC=FQQQD-SPH1G-8LU5B-K2JVM-WVZY4-PT1SU
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.30.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.30.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.7.0
+Dialog DLL:      TCM.DLL V1.42.0.0
+ 
+<h2>Project:</h2>
+C:\STM32_Files\project\DisplayTest\DisplayTest.uvprojx
+Project File Date:  08/05/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'DisplayTest'
+compiling EventRecorder.c...
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(351): error:  #20: identifier "__STATIC_INLINE" is undefined
+  __STATIC_INLINE uint32_t GetContext (void) {
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(351): error:  #101: "uint32_t" has already been declared in the current scope
+  __STATIC_INLINE uint32_t GetContext (void) {
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(351): error:  #65: expected a ";"
+  __STATIC_INLINE uint32_t GetContext (void) {
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(426): error:  #10: "#" not expected here
+    lsls  r3,r0,#__cpp(32 - INT_LOG2(EVENT_RECORD_LOCKED))
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(429): error:  #10: "#" not expected here
+    movs  r0,#0
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(432): error:  #10: "#" not expected here
+    and   r0,r0,#__cpp(EVENT_RECORD_TBIT)
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(488): error:  #10: "#" not expected here
+    lsls  r0,r0,#__cpp(32 - INT_LOG2(EVENT_RECORD_LOCKED))
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(491): error:  #10: "#" not expected here
+    movs  r0,#0
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(498): error:  #10: "#" not expected here
+    movs  r0,#1
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(569): warning:  #12-D: parsing restarts here after previous syntax error
+        info ^= EVENT_RECORD_TBIT;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(570): error:  #77-D: this declaration has no storage class or type specifier
+        tbit  = info & EVENT_RECORD_TBIT;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(570): error:  #20: identifier "info" is undefined
+        tbit  = info & EVENT_RECORD_TBIT;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(571): error:  #77-D: this declaration has no storage class or type specifier
+        record->ts   = (ts   & ~EVENT_RECORD_TBIT) | tbit;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(571): error:  #65: expected a ";"
+        record->ts   = (ts   & ~EVENT_RECORD_TBIT) | tbit;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(572): error:  #77-D: this declaration has no storage class or type specifier
+        record->val1 = (val1 & ~EVENT_RECORD_TBIT) | tbit;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(572): error:  #65: expected a ";"
+        record->val1 = (val1 & ~EVENT_RECORD_TBIT) | tbit;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(573): error:  #77-D: this declaration has no storage class or type specifier
+        record->val2 = (val2 & ~EVENT_RECORD_TBIT) | tbit;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(573): error:  #65: expected a ";"
+        record->val2 = (val2 & ~EVENT_RECORD_TBIT) | tbit;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(574): error:  #169: expected a declaration
+        if ((UnlockRecord(&record->info, info)) != 0U) {
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(584): warning:  #12-D: parsing restarts here after previous syntax error
+    IncrementRecordsDumped();
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(585): error:  #169: expected a declaration
+    return 0U;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(586): error:  #169: expected a declaration
+  }
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(910): warning:  #12-D: parsing restarts here after previous syntax error
+    return (ret);
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(911): error:  #169: expected a declaration
+  }
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1055): warning:  #12-D: parsing restarts here after previous syntax error
+    id &= EVENT_RECORD_ID_MASK;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1056): error:  #77-D: this declaration has no storage class or type specifier
+    id |= (__get_IPSR() != 0U) ? EVENT_RECORD_IRQ : 0U;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1056): error:  #65: expected a ";"
+    id |= (__get_IPSR() != 0U) ? EVENT_RECORD_IRQ : 0U;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1058): error:  #77-D: this declaration has no storage class or type specifier
+    dptr = (const uint8_t *)data;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1058): error:  #20: identifier "data" is undefined
+    dptr = (const uint8_t *)data;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1058): error:  #44: expression must have pointer type
+    dptr = (const uint8_t *)data;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1060): error:  #169: expected a declaration
+    if (len == 0U) {
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1076): warning:  #12-D: parsing restarts here after previous syntax error
+    ctx = (GetContext() << EVENT_RECORD_CTX_POS) & EVENT_RECORD_CTX_MASK;
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1078): error:  #40: expected an identifier
+    memcpy(val, dptr, 8U);
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1078): warning:  #77-D: this declaration has no storage class or type specifier
+    memcpy(val, dptr, 8U);
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1078): error:  #92: identifier-list parameters may only be used in a function definition
+    memcpy(val, dptr, 8U);
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c(1078): error:  #147: declaration is incompatible with "void *memcpy(void *restrict, const void *restrict, size_t)"  (declared at line 58 of "C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h")
+    memcpy(val, dptr, 8U);
+C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c: 6 warnings, 30 errors
+".\Objects\DisplayTest.axf" - 30 Error(s), 6 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: Event Recorder Variant: DAP Version: 1.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Compiler
+  .\RTE\_DisplayTest
+  C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include
+  C:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: Keil.ARM Compiler::Compiler:Event Recorder:DAP:1.4.0
+      Source file:   Source\EventRecorder.c
+      Include file:  Config\EventRecorderConf.h
+      Include file:  Include\EventRecorder.h
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

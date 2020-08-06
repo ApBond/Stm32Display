@@ -1,0 +1,50 @@
+Dependencies for Project 'DisplayTest', Target 'DisplayTest': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\Startup\startup_stm32f10x_md_vl.s)(0x4D78831E)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\Compiler-I.\RTE\_DisplayTest-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f10x_md_vl.lst --xref -o .\objects\startup_stm32f10x_md_vl.o --depend .\objects\startup_stm32f10x_md_vl.d)
+F (.\CMSIS\src\core_cm3.c)(0x4C0CACDE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\DisplayTest -I .\CMSIS\inc -I .\Code\inc -I .\lib\inc-I.\RTE\Compiler-I.\RTE\_DisplayTest-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+F (.\CMSIS\src\system_stm32f10x.c)(0x4D788300)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\DisplayTest -I .\CMSIS\inc -I .\Code\inc -I .\lib\inc-I.\RTE\Compiler-I.\RTE\_DisplayTest-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+F (.\Code\src\main.c)(0x5F2B0D6F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\DisplayTest -I .\CMSIS\inc -I .\Code\inc -I .\lib\inc-I.\RTE\Compiler-I.\RTE\_DisplayTest-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\Code\inc\main.h)(0x5F2B0DA0)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (.\lib\inc\delay.h)(0x5EFA4ED3)
+I (.\lib\inc\ssd1306.h)(0x5F2B08BD)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E5396AC)
+I (.\lib\inc\rcc.h)(0x5EFC5DAE)
+I (C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h)(0x5B8F96CE)
+F (.\lib\src\delay.c)(0x5EFA4E45)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\DisplayTest -I .\CMSIS\inc -I .\Code\inc -I .\lib\inc-I.\RTE\Compiler-I.\RTE\_DisplayTest-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (.\lib\inc\delay.h)(0x5EFA4ED3)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+F (.\lib\src\rcc.c)(0x5EFC5DBA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\DisplayTest -I .\CMSIS\inc -I .\Code\inc -I .\lib\inc-I.\RTE\Compiler-I.\RTE\_DisplayTest-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\rcc.o --omf_browse .\objects\rcc.crf --depend .\objects\rcc.d)
+I (.\lib\inc\rcc.h)(0x5EFC5DAE)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+F (.\lib\src\ssd1306.c)(0x5F2B08BD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\DisplayTest -I .\CMSIS\inc -I .\Code\inc -I .\lib\inc-I.\RTE\Compiler-I.\RTE\_DisplayTest-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\ssd1306.o --omf_browse .\objects\ssd1306.crf --depend .\objects\ssd1306.d)
+I (.\lib\inc\ssd1306.h)(0x5F2B08BD)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E5396AC)
+F (C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c)(0x5B8F96CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\DisplayTest -I .\CMSIS\inc -I .\Code\inc -I .\lib\inc-I.\RTE\Compiler-I.\RTE\_DisplayTest-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include-IC:\Users\ba123\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o .\objects\eventrecorder.o --omf_browse .\objects\eventrecorder.crf --depend .\objects\eventrecorder.d)
+I (.\RTE\_DisplayTest\RTE_Components.h)(0x5F2B0CDE)
+I (.\CMSIS\inc\stm32f10x.h)(0x5A00848B)
+I (.\CMSIS\inc\core_cm3.h)(0x4D5281A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E5396AC)
+I (.\CMSIS\inc\system_stm32f10x.h)(0x4D7882FA)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5E5396AC)
+I (C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h)(0x5B8F96CE)
+I (.\RTE\Compiler\EventRecorderConf.h)(0x5E6F6F3C)
+F (RTE\Compiler\EventRecorderConf.h)(0x5E6F6F3C)()

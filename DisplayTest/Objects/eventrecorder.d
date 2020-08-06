@@ -1,0 +1,9 @@
+.\objects\eventrecorder.o: C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\EventRecorder.c
+.\objects\eventrecorder.o: .\RTE\_DisplayTest\RTE_Components.h
+.\objects\eventrecorder.o: .\CMSIS\inc\stm32f10x.h
+.\objects\eventrecorder.o: .\CMSIS\inc\core_cm3.h
+.\objects\eventrecorder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\eventrecorder.o: .\CMSIS\inc\system_stm32f10x.h
+.\objects\eventrecorder.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\eventrecorder.o: C:\Users\ba123\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Include\EventRecorder.h
+.\objects\eventrecorder.o: .\RTE\Compiler\EventRecorderConf.h
